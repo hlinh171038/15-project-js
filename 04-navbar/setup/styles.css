@@ -1,0 +1,118 @@
+*{ 
+  box-sizing: border-box;
+  border:none;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: whitesmoke;
+  box-shadow: 0.2rem 0.2rem 0.2rem lightgrey;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: ui-sans-serif;
+}
+.nav-toggle{
+  display: none;
+}
+
+.links{
+  list-style: none;
+  display:flex;
+}
+.links li{
+  padding: 0rem 1rem ;
+}
+.logo-container{
+  margin-right:8rem
+}
+.logo-container a{
+  margin: 0.2rem;
+    text-decoration: none;
+    color: blue;
+    transition: all 1s ease;
+    
+}
+.fa-facebook{
+  animation: bouces 1s ease-in-out infinite;
+}
+.fa-linkedin{
+  animation: bouces 1.5s ease-in-out infinite;
+}
+.fa-behance{
+  animation: bouces 2s ease-in-out infinite;
+}
+.fa-twitter{
+  animation: bouces 2.5s ease-in-out infinite;
+}
+@keyframes bouces {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.logo-container a:hover{
+    color: lightblue;
+}
+
+@media screen and (max-width:855px){
+  .header-container {
+    display: block;
+    text-transform: uppercase;
+    font-family: ui-sans-serif;
+}
+  .nav-toggle{
+    display: flex;
+    font-size:2rem;
+    color:rgb(100, 162, 233);
+    transition: all 1s ease;
+    animation: bouce 2s ease-in-out infinite;
+  }
+  @keyframes bouce {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.5);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  .logo-container{
+    display: none;
+  }
+  .toggle-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-toggle:hover{
+    color:lightblue;
+    transform: rotate(90deg);
+  }
+  .links{
+    list-style: none;
+    display:none;
+  }
+  .link-toggle{
+    display: block;
+  }
+  .links li {
+    padding: 0.5rem 2rem;
+    transition: all 1s ease;
+}
+.links li:hover {
+  padding-left:3rem;
+  background-color:rgb(100, 162, 233);
+  color:white;
+}
+}
