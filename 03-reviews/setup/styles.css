@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.review{
+  width:50%;
+}
+.img-container{
+  /* position: relative; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  
+}
+.person-img{
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.author{
+  font-family: ui-sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: blue;
+  font-size: 0.85rem;
+  text-align: center;
+}
+.info{
+  color: hsl(210deg 22% 49%);
+  font-size: 1.5rem;
+}
+.review {
+  background: whitesmoke;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  box-shadow: 20px;
+  transition: all 1s ease;
+  text-align: center;
+}
+.prev-btn, .next-btn {
+  color:aquamarine;
+  font-size: 2rem;
+  margin: 2rem;
+  border: none;
+  background-color: whitesmoke;
+}
+.random-btn{
+  color:rgb(7, 41, 43);
+  padding:1rem;
+  border-radius: 0.2rem;
+  border: 1px solid rgb(7, 41, 43);
+  background-color: aquamarine;
+  transition:all 0.5s ease;
+
+}
+.random-btn:hover{
+  color:aquamarine;
+  font-size:1rem;
+  padding:1.2rem;
+  border: 1px solid aquamarine;
+  background-color: rgb(7, 41, 43);
+
+}
