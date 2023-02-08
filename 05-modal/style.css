@@ -1,0 +1,81 @@
+body{
+    min-height: 100vh;
+    background: url(./hero.jpeg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 1rem 2rem;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 1rem;
+}
+.text{
+    color: darkblue;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    padding: 1rem;
+    color: white;
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: large;
+    border-radius: 1rem;
+    border: 4px solid white;
+    transition: all 1s ease;
+    cursor:pointer;
+}
+.btn:hover{
+    color: aqua;
+    border: 4px solid white;
+    background-color: white;
+    
+}
+.modal-container{
+    background-color: whitesmoke;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(73, 166, 233, 0.5);;
+}
+.overlay{
+    display: flex;
+}
+.modal-container h3{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    color: blue;
+    margin-right: 5rem;
+}
+.close-btn{
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    font-size:2rem;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    transition:all 1s ease;
+    margin-left:5rem;
+}
+.close-btn i{
+    font-weight: 900;
+}
