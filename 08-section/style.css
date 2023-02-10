@@ -1,0 +1,58 @@
+.section-center{
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem 6rem;
+    grid-template-columns: auto auto;
+}
+.artical{
+    display: grid;
+    grid-template-columns: 204px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem;
+}
+.photo {
+    height: 175px;
+    width: 200px;
+    object-fit: cover;
+    border: 0.25rem solid darkgoldenrod;
+    border-radius: 0.7rem;
+}
+.item-info header{
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    display: grid;
+    grid-template-columns: 350px auto;
+    border-bottom: 1px dotted grey;
+}
+header h4{
+    color:goldenrod;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.price{
+    letter-spacing: 0.5rem;
+    color: goldenrod;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    transition: all 1s ease;
+}
+.btn-container button {
+    color: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+    border-radius: 0.3rem;
+    margin: 0rem 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding: 0.3rem 1rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
