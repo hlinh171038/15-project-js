@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.all-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: silver;
+}
+.countdown-container{
+    display: grid;
+    grid-template-columns: 550px auto;
+    width:70vw;  
+}
+.right-container{
+    margin: 0 2rem;
+}
+.right-container h1 {
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+.right-container p {
+    font-family: sans-serif;
+    color: lightslategrey;
+}
+.give-away{
+    color:black;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    margin:1rem 0;
+}
+.img{
+    width:100%;
+}
+.btn-timer{
+    display: flex;
+    margin-top: 2rem;
+}
+.deadline-format {
+    background: darkslategrey;
+    color: ghostwhite;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border: none;
+}
