@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all-container">
+        <div class="to-do-container">
+            <h1 class="title">Grocery Bud</h1>
+            <div class="form-container">
+                <form action="" class="form">
+                    <input type="text" class="grocery-input" placeholder="typing your grocery ... ">
+                    <button type="submit" class="btn-grocery">submit</button>
+                </form>
+                <div class="filter-container">
+                    <select class="filter">
+                        <option value="all" data-id="all">all</option>
+                        <option value="complete"data-id='complete'>complete</option>
+                        <option value="uncomplete" data-id="uncomplete">uncomplete</option>
+                    </select>
+                </div>
+            </div>
+            <div class="items-container"></div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

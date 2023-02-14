@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.all-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.to-do-container{
+    text-align: center;
+
+}
+.title{
+    font-family: monospace;
+    font-size: xxx-large;
+    margin-bottom: 2rem;
+}
+.grocery-input{
+    background: azure;
+    border: 1px solid black;
+    padding: 0.2rem 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color: black;
+}
+.btn-grocery{
+    border-top-right-radius: 0.5rem;
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 0.2rem 1rem;
+    border-bottom-right-radius: 0.5rem;
+    border:1px solid darkcyan;
+    transition: all 1s ease;
+}
+.btn-grocery:hover{
+    background-color: whitesmoke;
+    color: darkcyan;
+    border:1px solid darkcyan;
+    cursor: pointer;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 1rem;
+    box-shadow: 1px 1px 3px darkgrey;
+    border-radius: 0.2rem;
+}
+
+.content{
+    flex: 1;
+    text-align: left;
+    padding-left: 1rem;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.btn-trash{
+    border: none;
+    color: indianred;
+    padding: 0.5rem;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+.btn-trash:hover{
+    color:brown;
+    cursor: pointer;
+
+}
+.btn-edit{
+    border: none;
+    color: darkcyan;
+    padding: 0.5rem;
+    background-color: transparent;
+    transition: all 1s ease;
+
+}
+.btn-edit:hover{
+    color:darkgreen;
+    cursor: pointer;
+}
+.fa-solid{
+    pointer-events: none;
+}
+.toggle{
+    text-decoration: line-through;
+    opacity:0.5;
+}
+.filter{
+    background: aliceblue;
+    padding: 0.2rem;
+    border: none;
+    cursor: pointer;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
