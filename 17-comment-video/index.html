@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container center__display">
+        <div class="top">
+            <div class="video__container">
+                <video src="" width="800" height="450" controls>
+                    <source src="">
+                </video>
+                <form >
+                    <div class="heart__icon center__display">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="form__info center__display">
+                        <input type="text" name="user"
+                        id="user" placeholder=" your user name">
+                        <input type="text"
+                        name="comment" id="comment"
+                        placeholder="Add a short comment here">
+                    </div>
+                    <button type="submit" class="submit_btn">
+                        submit
+                    </button>
+                </form>
+                <div class="likes__count">
+                    <i class="far fa-heart"></i>
+                    <small class="count">0</small>
+                </div>
+            </div>
+            <div class="comments__container center__display">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
